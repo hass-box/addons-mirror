@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.4.1
+
+### Bug fixes
+
+- Fixed an issue where the unresponsive controller recovery could do the wrong thing and block all outgoing communication.
+
+### Config file changes
+
+- Add missing units and firmware condition for Heatit Z-Temp2
+- Correct device label for Airzone Aidoo Control HVAC unit
+
+### Detailed changelogs
+
+- [Z-Wave JS 12.3.1](https://github.com/zwave-js/node-zwave-js/releases/tag/v12.3.1)
+
+## 0.4.0
+
+### Features
+
+- Add-On: Provide access to Z-Wave JS cache files for debugging in `/addon_configs/core_zwave_js/cache`
+- Add-On: Add configuration option to log to file. When enabled, logs will be written to `/addon_configs/core_zwave_js` with the `.log` file extension
+
 ## 0.3.0
 
 ### Features
