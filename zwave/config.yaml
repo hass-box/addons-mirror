@@ -13,7 +13,7 @@ arch:
 discovery:
   - ozw
 homeassistant: 0.110.0.dev
-image: dockerproxy.com/homeassistant/{arch}-addon-zwave
+image: homeassistant/{arch}-addon-zwave
 ingress: true
 ingress_entry: vnc_lite.html
 init: false

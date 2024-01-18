@@ -13,7 +13,7 @@ discovery:
   - almond
 homeassistant: 0.102.0
 homeassistant_api: true
-image: dockerproxy.com/homeassistant/{arch}-addon-almond
+image: homeassistant/{arch}-addon-almond
 ingress: true
 init: false
 panel_icon: mdi:comment-eye-outline

@@ -9,7 +9,7 @@ arch:
   - armv7
   - i386
 gpio: true
-image: dockerproxy.com/homeassistant/{arch}-addon-homematic
+image: homeassistant/{arch}-addon-homematic
 ingress: true
 map:
   - share:rw
